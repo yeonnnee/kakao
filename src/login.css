@@ -1,0 +1,15 @@
+.status-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status-bar__time{
+    font-size: 15px;
+    font-weight: bold;
+}
+.status-bar__icons {
+    font-size: 13px;
+}
+
+/* greeting */
