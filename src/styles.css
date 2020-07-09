@@ -1,5 +1,13 @@
-@import url("./reset.css");
-@import url("./login.css");
+@import "./reset.css";
+
+
+/* component */
+@import "./components/status-bar.css";
+
+/* screen */
+@import "./screen/login.css";
+
+
 
 *{
     box-sizing: border-box;
@@ -11,4 +19,5 @@ body{
 
 a{
     text-decoration: none;
+    color: inherit;
 }
