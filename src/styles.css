@@ -3,19 +3,17 @@
 
 /* component */
 @import "./components/status-bar.css";
+@import "./components/nav.css";
 
 /* screen */
 @import "./screen/login.css";
-
+@import "./screen/friends.css";
 
 
 *{
     box-sizing: border-box;
 }
 
-body{
-    padding: 20px;
-}
 
 a{
     text-decoration: none;
