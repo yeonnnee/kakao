@@ -1,0 +1,25 @@
+
+/* header */
+.friends-header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.friends-header svg{
+    width: 20px;
+    height: 20px;
+}
+
+.header__title {
+    font-size: 22px;
+    font-weight: bold;
+}
+.header__icons {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    
+}
