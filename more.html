@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More-kokoa clone</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+</head>
+<body>
+    <!------------------ 상태바------------------->
+    <div class="status-bar">
+        <div class="status-bar__time">
+            9:16
+        </div>
+        <div class="status-bar__icons">
+            <i class="fas fa-signal"></i>
+            <i class="fas fa-wifi"></i>
+            <i class="fas fa-battery-full fa-lg"></i>
+        </div>
+    </div>
+    <!---------------------헤더------------>
+    <header class="friends-header">
+        <h1 class="header__title">
+            More
+        </h1>
+        <ul class="header__icons">
+            <li class="icons__list">
+                <a href="./search.html">
+                    <i class="fab fa-sistrix"></i>
+                </a>
+            </li>
+            <li class="icons__list">
+                <a href="#">
+                    <i class="fas fa-qrcode"></i>
+                </a>
+            </li>
+            <li class="icons__list">
+                <a href="">
+                    <i class="fas fa-music"></i>
+                </a>
+            </li>
+            <li class="icons__list">
+                <span class="setting-option">
+                    <i class="fas fa-cog"></i>
+                </span>
+            </li>
+        </ul>
+    </header>
+    <!----------------내 프로필----------------->
+    <div class="user">
+        <div class="user__info">
+            <div class="user__img">
+                <img src="img/elsa.jpg">
+            </div>
+            <div class="user__content">
+                <h4 class="user__name">yeonnnee</h4>
+                <span class="user__email">github.com/yeonnnee</span>
+            </div>
+        </div>
+        <div class="user__icons">
+            <div class="icons__my">
+                MY
+            </div>
+            <div class="icons__con">
+                <i class="fab fa-bitcoin"></i>
+                286
+            </div>
+        </div>
+    </div>
+
+
+    <!----------------- 네비게이션바 ------------>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="list__item">
+                <a href="./friends.html">
+                    <i class="fas fa-user"></i>
+                </svg>
+                </a>
+            </li>
+            <li class="list__item">
+                <a href="./chats.html">
+                    <i class="far fa-comment fs-lg"></i>
+                </a>
+                <span class="nav__alert">3</span>
+            </li>
+            <li class="list__item">
+                <a href="./news.html">
+                    <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"></path>
+                    </svg>
+                </a>
+            </li>
+            <li class="list__item">
+                <a href="./more.html">
+                    <i class="fas fa-ellipsis-h"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>    
+    <script src="https://kit.fontawesome.com/03bf801d52.js" crossorigin="anonymous"></script>
+</body>
+</html>
