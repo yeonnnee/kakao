@@ -1,0 +1,44 @@
+.user__icons{
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user__email{
+    font-size: 11px;
+    opacity: 0.8;
+}
+
+.user__content{
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.icons__my, .icons__con{
+    border: 1px solid rgb(201, 198, 198);
+    border-radius: 15px;
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons__my{
+    width: 45px;
+    height: 25px;
+}
+
+.icons__con{
+    width: 55px;
+    height: 25px;
+}
+
+.icons__con i {
+    margin-right: 2px;
+    font-size: 14px;
+    color: green;
+}
