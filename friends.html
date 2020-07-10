@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./src/styles.css" />
 </head>
 <body>
+    <!------------------ 상태바------------------->
     <div class="status-bar">
         <div class="status-bar__time">
             9:16
@@ -17,6 +18,7 @@
             <i class="fas fa-battery-full fa-lg"></i>
         </div>
     </div>
+    <!---------------------헤더------------>
     <header class="friends-header">
         <h1 class="header__title">
             Friends
@@ -24,9 +26,7 @@
         <ul class="header__icons">
             <li class="icons__list">
                 <a href="./search.html">
-                    <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-                        <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
-                    </svg>
+                    <i class="fab fa-sistrix"></i>
                 </a>
             </li>
             <li class="icons__list">
@@ -46,12 +46,139 @@
             </li>
         </ul>
     </header>
+    <!----------------내 프로필----------------->
     <div class="user">
         <div class="user__img">
             <img src="img/elsa.jpg">
         </div>
-        <span class="user__name">yeonnnee</span>
+        <h4 class="user__name">yeonnnee</h4>
     </div>
+    <!-------------생일인 친구--------------------->
+    <div class="birthday">
+        <div class="birthday__header">
+            <h6 class="birthday__title">
+                Friends with Birthdays
+            </h6>
+            <span class="birthday__hide">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                    <path d="M5 15l7-7 7 7"></path>
+                </svg>
+            </span>
+        </div>
+        <div class="birthday__friends">
+            <ul class="friends__list">
+                <li class="list__item">
+                    <div class="friend-content">
+                        <div class="friend__pic">
+                            <img src="./img/rapunzel.jpg">
+                        </div>
+                        <div class="friend__info">
+                            <h4 class="friend__name">
+                                Rapunzel
+                            </h4>
+                            <span class="friend__Status">
+                                My B-day!!
+                            </span>
+                        </div>
+                    </div>
+                    <div class="gift-shop">
+                        Gift Shop
+                        <i class="fas fa-gift"></i>
+                    </div>
+                </li>
+                <li class="list__item">
+                    <div class="friend-content">
+                        <div class="friend__pic">
+                            <img src="./img/ryan.jpg">
+                        </div>
+                        <div class="friend__info">
+                            <h4 class="friend__name">
+                                View more birthdays
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="birthday__more">
+                        2
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!---------------------------- 친구목록 ----------------->
+    <div class="friends">
+        <div class="friends__header">
+            <h6 class="friends__title">
+                Friends 5
+            </h6>
+        </div>
+        <ul class="friends__list">
+            <li class="list__item">
+                <div class="friend-content">
+                    <div class="friend__pic">
+                        <img src="./img/alice.jpg">
+                    </div>
+                    <div class="friend__info">
+                        <h4 class="friend__name">
+                            Alice
+                        </h4>
+                        <span class="friend__Status">
+                            Apple juce
+                        </span>
+                    </div>
+                </div>
+            </li>
+            <li class="list__item">
+                <div class="friend-content">
+                    <div class="friend__pic">
+                        <img src="./img/bell.jpg">
+                    </div>
+                    <div class="friend__info">
+                        <h4 class="friend__name">
+                            Bell
+                        </h4>
+                    </div>
+                </div>
+                <div class="friend-music">
+                    <span>Summner Hate(Feat. 비)</span>
+                    <i class="fas fa-play"></i>
+                </div>
+            </li>
+            <li class="list__item">
+                <div class="friend-content">
+                    <div class="friend__pic">
+                        <img src="./img/rapunzel.jpg">
+                    </div>
+                    <div class="friend__info">
+                        <h4 class="friend__name">
+                            Rapunzel
+                        </h4>
+                    </div>
+                </div>
+                <div class="friend-music">
+                    <span>Summner Hate(Feat. 비)</span>
+                    <i class="fas fa-play"></i>
+                </div>
+            </li>
+            <li class="list__item">
+                <div class="friend-content">
+                    <div class="friend__pic">
+                        <img src="./img/mulan.jpg">
+                    </div>
+                    <div class="friend__info">
+                        <h4 class="friend__name">
+                            Mulan
+                        </h4>
+                    </div>
+                </div>
+                <div class="friend-music">
+                    <span>Summner Hate(Feat. 비)</span>
+                    <i class="fas fa-play"></i>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!----------------- 네비게이션바 ------------>
     <nav class="nav">
         <ul class="nav__list">
             <li class="list__item">
