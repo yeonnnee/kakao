@@ -4,38 +4,38 @@
     width: 100%;
     background-color: #f9f9fa;
     border-top: 1px solid #f1f1f1;
-    padding: 20px 40px;
+    padding: 15px 20px;
 }
 
 .nav__list{
     display: flex;
-    align-items: center;
+    
     justify-content: space-between;
 }
 
 nav svg{
-    width: 30px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
 }
 
 .nav__alert{
     background-color: tomato;
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 10px;
     position: relative;
     left: -10px;
     top: -8px;
 }
 
 nav i {
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(34, 34, 34);
 }
 
