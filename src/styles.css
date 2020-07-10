@@ -8,7 +8,7 @@
 /* screen */
 @import "./screen/login.css";
 @import "./screen/friends.css";
-
+@import "./screen/chats.css";
 
 *{
     box-sizing: border-box;

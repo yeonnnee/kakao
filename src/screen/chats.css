@@ -1,0 +1,43 @@
+.chats{
+    padding: 0 20px;
+}
+.chats__chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.chat__time{
+    font-size: 11px;
+    opacity: 0.8;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.chat__info h4{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.chat__preview{
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.chat__alert{
+    background-color: tomato;
+    width: 17px;
+    height: 17px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
