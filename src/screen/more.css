@@ -42,3 +42,53 @@
     font-size: 14px;
     color: green;
 }
+
+/* kakao-pay */
+
+.container,
+.kakao-pay{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.kakao-pay{
+    border-radius: 5px;
+    background-color: #F2F2F2;
+}
+
+.pay__status{
+    display: flex;
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #d8d6d6;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.pay__icon{
+    font-weight: bold;
+    margin-right: 5px;
+}
+.pay__status span{
+    font-size: 15px;
+}
+
+.pay__options {
+    font-size: 14px;
+}
+
+.option {
+    display: inline-block;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.option:nth-child(2) {
+    border-left: 1px solid #d8d6d6;
+    border-right: 1px solid #e9e6e6;
+    padding: 0px 10px;
+}
