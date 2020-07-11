@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends|kokoa clone</title>
+    <title>Friends-kokoa clone</title>
     <link rel="stylesheet" href="./src/styles.css" />
 </head>
 <body>
+    <div class="wrapper">
     <!------------------ 상태바------------------->
     <div class="status-bar">
         <div class="status-bar__time">
@@ -48,10 +49,12 @@
     </header>
     <!----------------내 프로필----------------->
     <div class="user">
-        <div class="user__img">
-            <img src="img/elsa.jpg">
+        <div class="user__info">
+            <div class="user__img">
+                <img src="img/elsa.jpg">
+            </div>
+            <h4 class="user__name">yeonnnee</h4>
         </div>
-        <h4 class="user__name">yeonnnee</h4>
     </div>
     <!-------------생일인 친구--------------------->
     <div class="birthday">
@@ -178,6 +181,7 @@
             </li>
         </ul>
     </div>
+    </div>
     <!----------------- 네비게이션바 ------------>
     <nav class="nav">
         <ul class="nav__list">
@@ -202,7 +206,9 @@
             </li>
             <li class="list__item">
                 <a href="./more.html">
-                    <i class="fas fa-ellipsis-h"></i>
+                    <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path>
+                    </svg>
                 </a>
             </li>
         </ul>
