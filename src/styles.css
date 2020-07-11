@@ -1,4 +1,6 @@
 @import "./reset.css";
+@import "../fontello/css/user-embedded.css";
+
 
 
 /* component */
@@ -23,4 +25,8 @@ a{
 
 .wrapper{
     padding: 5px 20px;
+}
+
+body{
+    font-family: "fontello";
 }
