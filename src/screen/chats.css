@@ -1,8 +1,11 @@
+.chats{
+    margin-top: 25px;
+}
 .chats__chat{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .chat__time{

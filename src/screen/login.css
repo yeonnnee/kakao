@@ -20,11 +20,11 @@
 }
 
 /* form */
-form {
+.login-form {
     justify-content: space-between;
     height: 110px;
 }
-form input{
+.login-form input{
     height: 50px;
     width: 100%;
     border: transparent;

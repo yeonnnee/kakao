@@ -3,212 +3,211 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>More-kokoa clone</title>
+    <title>More-kakao clone</title>
     <link rel="stylesheet" href="./src/styles.css" />
-    <link rel="stylesheet" href="/user-codes.css" />
 </head>
 <body>
     <div class="wrapper">
-    <!------------------ 상태바------------------->
-    <div class="status-bar">
-        <div class="status-bar__time">
-            9:16
+        <!------------------ 상태바------------------->
+        <div class="status-bar">
+            <div class="status-bar__time">
+                9:16
+            </div>
+            <div class="status-bar__icons">
+                <i class="fas fa-signal"></i>
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-battery-full fa-lg"></i>
+            </div>
         </div>
-        <div class="status-bar__icons">
-            <i class="fas fa-signal"></i>
-            <i class="fas fa-wifi"></i>
-            <i class="fas fa-battery-full fa-lg"></i>
-        </div>
-    </div>
-    <!---------------------헤더------------>
-    <header class="friends-header">
-        <h1 class="header__title">
-            More
-        </h1>
-        <ul class="header__icons">
-            <li class="icons__list">
-                <a href="./search.html">
-                    <i class=" icon-search"></i>
-                </a>
-            </li>
-            <li class="icons__list">
-                <a href="#">
-                    <span class="qrcode">
-                        <i class="fas fa-expand"></i>
+        <!---------------------헤더------------>
+        <header class="friends-header">
+            <h1 class="header__title">
+                More
+            </h1>
+            <ul class="header__icons">
+                <li class="icons__list">
+                    <a href="./search.html">
+                        <i class=" icon-search"></i>
+                    </a>
+                </li>
+                <li class="icons__list">
+                    <a href="#">
+                        <span class="qrcode">
+                            <i class="fas fa-expand"></i>
+                        </span>
+                    </a>
+                    <i class="icon-minus"></i>
+                </li>
+                <li class="icons__list">
+                    <a href="">
+                        <i class="icon-music"></i>
+                    </a>
+                </li>
+                <li class="icons__list">
+                    <span class="setting-option">
+                        <i class="fas fa-cog"></i>
                     </span>
-                </a>
-                <i class="icon-minus"></i>
-            </li>
-            <li class="icons__list">
-                <a href="">
-                    <i class="icon-music"></i>
-                </a>
-            </li>
-            <li class="icons__list">
-                <span class="setting-option">
-                    <i class="fas fa-cog"></i>
-                </span>
-            </li>
-        </ul>
-    </header>
-    <!----------------내 프로필----------------->
-    <div class="user">
-        <div class="user__info">
-            <div class="user__img">
-                <img src="img/elsa.jpg">
-            </div>
-            <div class="user__content">
-                <h4 class="user__name">yeonnnee</h4>
-                <span class="user__email">github.com/yeonnnee</span>
-            </div>
-        </div>
-        <div class="user__icons">
-            <div class="icons__my">
-                MY
-            </div>
-            <div class="icons__con">
-                <i class="fab fa-bitcoin"></i>
-                286
-            </div>
-        </div>
-    </div>
-    <!----------------- 카카오페이 ----------->
-    <div class="container">
-        <div class="kakao-pay">
-            <div class="pay__status">
-                <div class="pay__icon">
-                    <i class="fas fa-comment"></i>
-                    Pay
+                </li>
+            </ul>
+        </header>
+        <!----------------내 프로필----------------->
+        <div class="user">
+            <div class="user__info">
+                <div class="user__img">
+                    <img src="img/elsa.jpg">
                 </div>
-                <span>0</span>
+                <div class="user__content">
+                    <h4 class="user__name">yeonnnee</h4>
+                    <span class="user__email">github.com/yeonnnee</span>
+                </div>
             </div>
-            <div class="pay__options">
-                <div class="option">
-                    Send
+            <div class="user__icons">
+                <div class="icons__my">
+                    MY
                 </div>
-                <div class="option">
-                    Pay
-                </div>
-                <div class="option">
-                    Asset
+                <div class="icons__con">
+                    <i class="fab fa-bitcoin"></i>
+                    286
                 </div>
             </div>
         </div>
-    </div>
-        <!------------------- 메뉴 -------->
-    <main class="menue">
-        <div class="menue-wrapper">
-            <div class="menue__item">
-                <a href="">
-                    <i class="far fa-envelope"></i>
-                </a>
-                <span>Talk Mail</span>
-            </div>
-            <div class="menue__item">
-                <a href="">
-                    <i class="far fa-calendar-check"></i>
-                </a>
-                <span>Talk Calendar</span>
-            </div>
-            <div class="menue__item">
-                <a href="">
-                    <i class="fas fa-archive"></i>
-                </a>
-                <span>Talk Drive</span>
-            </div>
-            <div class="menue__item">
-                <a href="">
-                    <i class="icon-medium"></i>
-                </a>
-                <span>Makers</span>
-            </div>
-            <div class="menue__item">
-                <a href="">
-                    <i class="icon-gift-2"></i>
-                </a>
-                <span>Gifts</span>
-            </div>
-            <div class="menue__item">
-                <a href="">
-                    <i class="far fa-grin"></i>
-                </a>
-                <span>Emoticon</span>
-            </div>
-            <div class="menue__item">
-                <a href="">
-                    <img src="img/ryan3.jpg" class="menue__image">
-                </a>
-                <div class="icon__title">Friends</div>
-            </div>
-            <div class="menue__item">
-                <a href="">
-                    <i class="icon-shop"></i>
-                </a>
-                <span>Shopping</span>
-            </div>
-            <div class="menue__item">
-                <a href="">
-                    <i class=" icon-t-shirt"></i>
-                </a>
-                <span>Style</span>
-            </div>
-            <div class="menue__item">
-                <a href="">
-                    <i class="fas fa-utensils"></i>
-                </a>
-                <span>Order</span>
-            </div>
-            <div class="menue__item">
-                <a href="">
-                    <i class="fas fa-ticket-alt"></i>
-                </a>
-                <span>Melon Tickets</span>
-            </div>
-            <div class="menue__item">
-                <a href="">
-                    <i class="fas fa-gamepad"></i>
-                </a>
-                <span>Games</span>
-            </div>
-            <div class="menue__item">
-                <a href="">
-                    <i class="icon-sticky-note-o"></i>
-                </a>
-                <span>Page</span>
-            </div>
-            <div class="menue__item">
-                <a href="">
-                    <i class="fas fa-bullseye"></i>
-                    <div class="circle"></div>
-                </a>
-                <div class="icon__title2">Music</div>
-            </div>
-            <div class="menue__item">
-                <a href="">
-                    <i class=" icon-scissors"></i>
-                </a>
-                <span>Hairshop</span>
-            </div>
-            <div class="menue__item">
-                <a href="">
-                    <i class="icon-th-large-outline"></i>
-                </a>
-                <span>Kakao Apps</span>
+        <!----------------- 카카오페이 ----------->
+        <div class="container">
+            <div class="kakao-pay">
+                <div class="pay__status">
+                    <div class="pay__icon">
+                        <i class="fas fa-comment"></i>
+                        Pay
+                    </div>
+                    <span>0</span>
+                </div>
+                <div class="pay__options">
+                    <div class="option">
+                        Send
+                    </div>
+                    <div class="option">
+                        Pay
+                    </div>
+                    <div class="option">
+                        Asset
+                    </div>
+                </div>
             </div>
         </div>
-    </main>
-      <!-- 광고 -->
-      <div class="ad">
-        <div class="ad-mark">AD</div>
-        <div class="ad__content">
-            <div class="ad__text">
-                Best gift for Valentine's Day
+            <!------------------- 메뉴 -------->
+        <main class="menue">
+            <div class="menue-wrapper">
+                <div class="menue__item">
+                    <a href="">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                    <span>Talk Mail</span>
+                </div>
+                <div class="menue__item">
+                    <a href="">
+                        <i class="far fa-calendar-check"></i>
+                    </a>
+                    <span>Talk Calendar</span>
+                </div>
+                <div class="menue__item">
+                    <a href="">
+                        <i class="fas fa-archive"></i>
+                    </a>
+                    <span>Talk Drive</span>
+                </div>
+                <div class="menue__item">
+                    <a href="">
+                        <i class="icon-medium"></i>
+                    </a>
+                    <span>Makers</span>
+                </div>
+                <div class="menue__item">
+                    <a href="">
+                        <i class="icon-gift-2"></i>
+                    </a>
+                    <span>Gifts</span>
+                </div>
+                <div class="menue__item">
+                    <a href="">
+                        <i class="far fa-grin"></i>
+                    </a>
+                    <span>Emoticon</span>
+                </div>
+                <div class="menue__item">
+                    <a href="">
+                        <img src="img/ryan3.jpg" class="menue__image">
+                    </a>
+                    <div class="icon__title">Friends</div>
+                </div>
+                <div class="menue__item">
+                    <a href="">
+                        <i class="icon-shop"></i>
+                    </a>
+                    <span>Shopping</span>
+                </div>
+                <div class="menue__item">
+                    <a href="">
+                        <i class=" icon-t-shirt"></i>
+                    </a>
+                    <span>Style</span>
+                </div>
+                <div class="menue__item">
+                    <a href="">
+                        <i class="fas fa-utensils"></i>
+                    </a>
+                    <span>Order</span>
+                </div>
+                <div class="menue__item">
+                    <a href="">
+                        <i class="fas fa-ticket-alt"></i>
+                    </a>
+                    <span>Melon Tickets</span>
+                </div>
+                <div class="menue__item">
+                    <a href="">
+                        <i class="fas fa-gamepad"></i>
+                    </a>
+                    <span>Games</span>
+                </div>
+                <div class="menue__item">
+                    <a href="">
+                        <i class="icon-sticky-note-o"></i>
+                    </a>
+                    <span>Page</span>
+                </div>
+                <div class="menue__item">
+                    <a href="">
+                        <i class="fas fa-bullseye"></i>
+                        <div class="circle"></div>
+                    </a>
+                    <div class="icon__title2">Music</div>
+                </div>
+                <div class="menue__item">
+                    <a href="">
+                        <i class=" icon-scissors"></i>
+                    </a>
+                    <span>Hairshop</span>
+                </div>
+                <div class="menue__item">
+                    <a href="">
+                        <i class="icon-th-large-outline"></i>
+                    </a>
+                    <span>Kakao Apps</span>
+                </div>
             </div>
-            <button class="ad__btn">
-                Buy Now
-            </button>
+        </main>
+        <!-- 광고 -->
+        <div class="ad">
+            <div class="ad-mark">AD</div>
+            <div class="ad__content">
+                <div class="ad__text">
+                    Best gift for Valentine's Day
+                </div>
+                <button class="ad__btn">
+                    Buy Now
+                </button>
+            </div>
         </div>
-    </div>
     </div>
   
     <!----------------- 네비게이션바 ------------>
