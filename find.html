@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find-Kakao clone</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./src/styles.css">
 </head>
 <body>
     <div class="wrapper">
@@ -20,27 +20,59 @@
             </div>
         </div>
         <!--------------헤더----------------->
-        <header class="header">
-            <div class="search-container">
-                <input class="search__write" type="text" name="searh" placeholder="Search">
-                <div class="search__icon">
+        <header class="find-header">
+            <div class="find-container">
+                <span class="search__icon">
                     <i class="fas fa-search"></i>
-                </div>
+                </span>
+                <input class="search__write" type="text" placeholder="Search">
                 <div class="search__code">
                     <a href="#">
-                        <span class="qrcode">
+                        <span class="find-qrcode">
                             <i class="fas fa-expand"></i>
                         </span>
                     </a>
-                    <i class="icon-minus"></i>
+                    <span class="find-minus">
+                        <i class="icon-minus"></i>
+                    </span>
                 </div>
-                <div class="search__cancel">   
-                    <a href="friends.html" class="btn">
-                        Cancel
-                    </a>
-                </div>    
+            </div>
+            <div class="find__cancel">   
+                <a href="friends.html">
+                    Cancel
+                </a>
             </div>
         </header>
+        <!-------------새로나온 이모티콘--------->
+        <div class="new-emoticons">
+            <div class="new-emoticons__column">
+                <span class="new-emoticons__title">
+                    New Emoticons
+                </span>
+                <span class="new-emoticons__more">
+                    More
+                    <i class="fas fa-chevron-right"></i>
+                </span>
+            </div>
+            <div class="new-emoticons__section">
+                <ul class="new-emoticons__list">
+                    <li class="emoticon">
+                        No Image
+                    </li>
+                    <li class="emoticon">
+                        No Image
+                    </li>
+                    <li class="emoticon">
+                        No Image
+                    </li>
+                </ul>
+            </div>
+            <div class="new-emoticons__slider">
+                <div class="emo-circle"></div>
+                <div class="emo-circle"></div>
+            </div>
+        </div>
     </div>
+    <script src="https://kit.fontawesome.com/03bf801d52.js" crossorigin="anonymous"></script>
 </body>
 </html>
