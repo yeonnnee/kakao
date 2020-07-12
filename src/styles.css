@@ -12,8 +12,9 @@
 @import "./screen/friends.css";
 @import "./screen/chats.css";
 @import "./screen/more.css";
-@import "./screen/news.css";
+@import "./screen/hash.css";
 @import "./screen/setting.css";
+@import "./screen/find.css";
 
 *{
     box-sizing: border-box;
