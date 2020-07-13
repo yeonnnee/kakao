@@ -2,6 +2,9 @@
     margin-top: 25px;
 }
 .chats__chat{
+    list-style: none;
+}
+.chats__chat a{
     display: flex;
     align-items: center;
     justify-content: space-between;

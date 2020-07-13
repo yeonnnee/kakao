@@ -56,7 +56,7 @@
     align-items: center;
 }
 
-.user__img, .friend__pic{
+.user__img{
     width: 60px;
     height: 60px;
     border-radius: 23px;
@@ -104,7 +104,7 @@
     display: flex;
     justify-content: space-between;
 }
-.friend__pic img{
+.friend__pic{
     width: 45px;
     height: 45px;
     border-radius: 17px;

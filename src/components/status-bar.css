@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0 25px 0;
+    padding: 10px 20px 25px 20px;
 }
 
 .status-bar__time{
@@ -13,4 +13,8 @@
 }
 .status-bar__icons {
     font-size: 13px;
+}
+
+.status-bar__icons i:nth-child(2){
+    margin: 0 3px;
 }
