@@ -1,13 +1,3 @@
-.qrcode i{
-    font-size: 19px;
-    position: absolute;
-    top: -9px;
-    right: -19px;
-}
-.plus{
-    font-size: 8px;
-    top:-2px;
-}
 
 /* user */
 .user__icons{

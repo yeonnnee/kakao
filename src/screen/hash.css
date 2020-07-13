@@ -1,18 +1,18 @@
 /* 헤더 */
-.news-header{
+.hash-header{
     width: 100%;
     height: 40px;
     border-bottom: 1px solid #f1f1f1;
 
 }
 
-.header__title,
-.title__list a {
+.hash-header__title,
+.hash-header-title__list a {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.title__list{
+.hash-header-title__list{
     display: inline-block;
     width: 100px;
     height: 40px;
@@ -20,7 +20,7 @@
     margin: 0 15px;
 }
 
-.title__list:hover{
+.hash-header-title__list:hover{
     border-bottom: 1px solid rgb(29, 29, 29);
     opacity: 0.8;
 }

@@ -1,4 +1,4 @@
-.friends-header,
+.header,
 .user,
 .list__item,
 .birthday__more{
@@ -16,7 +16,7 @@
 
 
 /* header */
-.friends-header {
+.header {
     width: 100%;
     height: 40px;
 }
@@ -31,10 +31,10 @@
     justify-content: space-between;
 }
 
-.icons__list span{
+.header-icons__list span{
     position: relative;
 }
-.user__add{
+.header-user__add{
     font-weight: bold;
     right: -8px;
     top: -3px;
@@ -56,12 +56,12 @@
     align-items: center;
 }
 
-.user__img{
+.user__img, .user__img img{
     width: 60px;
     height: 60px;
     border-radius: 23px;
 }
-.user__img {
+.user__img,.friend__pic {
     margin-right: 15px;
 }
 .user__img, .friend__pic{
@@ -69,20 +69,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgb(186, 186, 248);
 }
-.user__head{
-    width: 13px;
-    height: 13px;
-    border-radius: 10px;
-    background-color: rgb(191, 191, 247);
-    margin-bottom: 3px;
+
+.friend__pic,
+.friend__pic img,
+.b-friend__pic{
+    width: 45px;
+    height: 45px;
+    border-radius: 17px;
 }
-.user__body{
-    width: 30px;
-    height: 13px;
-    border-radius: 50px 50px 0 0;
-    background-color: rgb(191, 191, 247);
-}
+
 .user__name,
 .friend__name {
     font-weight: bold;
@@ -90,7 +87,6 @@
 }
 
 /* birthday friends */
-
 .birthday__hide svg{
     width: 12px;
     height: 12px;
@@ -104,13 +100,19 @@
     display: flex;
     justify-content: space-between;
 }
-.friend__pic{
-    width: 45px;
-    height: 45px;
-    border-radius: 17px;
+.friend__name i{
+    color: rgb(224, 136, 151);
+}
+.b-friend__pic{
+    background-color: rgb(224, 136, 151);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 15px;
 }
-
+.b-friend__pic i{
+    color: white;
+}
 .birthday__friends,
 .friends__list{
     margin-top: 15px;

@@ -22,7 +22,7 @@
     height: 40px;
 }
 
-.find__cancel{
+.find-header__cancel{
     display: inline-block;
     height: 40px;
     width: 70px;
@@ -32,7 +32,7 @@
     font-weight: bold;
 }
 
-.find-container input{
+.find-header__container input{
     border: none;
     outline: none;
     background-color:#f7f7f7;
@@ -43,29 +43,22 @@
     display: flex;
     align-items: center;
 }
-.find-container{
+.find-header__container{
     width: 100%;
 }
-.search__icon i {
+.find-header__search-icon i {
     position: relative;
     top: 28px;
     left: 10px;
     font-size: 12px;
 }
-.find-qrcode i{
+.find-header__qr-code i{
     font-size: 20px;
     position: relative;
     float: right;
     right: 15px;
     top: -28px;
 
-}
-.find-minus{
-    font-size: 20px;
-    position: relative;
-    float: right;
-    top: -30px;
-    right: -7px;
 }
 
 /* emoji */

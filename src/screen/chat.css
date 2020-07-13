@@ -11,14 +11,13 @@
     min-height: 1000vh;
 }
 
+/* header */
 .chat-header,
 .chat-header__icons{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
-/* header */
 .chat-header{
     padding: 0 20px;
     width: 100%;
@@ -26,7 +25,7 @@
     position: fixed;
     background-color: white;
 }
-.chat__name{
+.chat-header__user-name{
     margin-left: 60px;
     font-weight: bold;
     font-size: 20px;
@@ -65,30 +64,7 @@
     display: flex;
     align-self: flex-start;
 }
-.sender__pic{
-    width: 40px;
-    height: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(186, 186, 248);
-    border-radius: 15px;
-    margin-right: 7px;
-}
-.sender__head{
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
-    background-color: rgb(210, 210, 247);
-    margin-bottom: 3px;
-}
-.sender__body{
-    width: 20px;
-    height: 7px;
-    border-radius: 50px 50px 0 0;
-    background-color: rgb(210, 210, 247);
-}
+
 .message__content{
     display: flex;
     flex-direction: column;
@@ -105,7 +81,7 @@
     border-radius: 20px;
 }
 .bubble__timestamp{
-    font-size: 11px;
+    font-size: 10px;
     color: rgb(87, 85, 85);
     position: relative;
     top: 13px;

@@ -1,3 +1,8 @@
+.plus{
+    font-size: 8px;
+    top:-2px;
+}
+
 .chats{
     margin-top: 25px;
 }
@@ -22,7 +27,7 @@
 }
 
 .chat__info h4{
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
     margin-bottom: 5px;
 }
