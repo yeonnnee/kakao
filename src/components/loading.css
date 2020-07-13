@@ -1,0 +1,42 @@
+@keyframes rotateCircle {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loadingText {
+    0%{
+        opacity: 1;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    60% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+.loading__circle {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-color: transparent #fff transparent #FFF;
+    border-radius: 50px;
+    animation: rotateCircle 2s linear infinite;
+}
+
+.loading__text {
+    color: rgb(182, 179, 179);
+    font-size: 15px;
+    position: relative;
+    animation: loadingText 2s linear infinite alternate;
+}
+
+
+
