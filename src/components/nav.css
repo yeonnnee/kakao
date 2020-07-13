@@ -12,11 +12,10 @@
     justify-content: space-between;
 }
 
-nav svg{
+.list__item svg{
     width: 20px;
     height: 20px;
 }
-
 .nav__alert{
     background-color: tomato;
     width: 17px;
@@ -43,3 +42,44 @@ nav i {
     align-items: center;
 }
 
+.user-icon{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.user-icon__head{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(34, 34, 34);
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+.user-icon__body{
+    width: 20px;
+    height: 7px;
+    border-radius: 15px 15px 0 0;
+    border: 2px solid rgb(34, 34, 34);
+    border-bottom: transparent;
+}
+
+.friends-p-icon,.more-dot{
+    background-color: black;
+}
+
+.more-icon a{
+    width: 28px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    border: 2px solid rgb(34, 34, 34); 
+}
