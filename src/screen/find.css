@@ -54,3 +54,50 @@
     top: -30px;
     right: -7px;
 }
+
+/* emoji */
+
+.new-emoji{
+    margin-top: 30px;
+}
+
+.new-emoji__column{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    opacity: 0.6;
+}
+.new-emoji__section{
+    margin-top: 10px;
+}
+.new-emoji__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.emoji{
+    width: 150px;
+    height: 200px;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.new-emoji__slider{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.emoji-circle{
+    background-color: #f7f7f7;
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+}
+.emoji-circle:nth-child(1){
+    margin-right: 3px;
+    background-color: rgb(192, 192, 192);
+}
+
