@@ -6,8 +6,8 @@
     <title>Chats-kakao clone</title>
     <link rel="stylesheet" href="./src/styles.css" />
 </head>
-<body>
-    <div class="wrapper">
+<body class="chat-body">
+    <div class="chat-wrapper">
         <!------------------ 상태바------------------->
         <div class="status-bar">
             <div class="status-bar__time">
@@ -19,7 +19,6 @@
                 <i class="fas fa-battery-full fa-lg"></i>
             </div>
         </div>
-    </div>
         <!---------------------헤더------------>
         <header class="chat-header">
             <div class="chat-header__back-btn">
@@ -34,6 +33,44 @@
                 <i class="fas fa-bars"></i>
             </div>
         </header>
-        <script src="https://kit.fontawesome.com/03bf801d52.js" crossorigin="anonymous"></script>
+    </div>
+    <!-- chat -->
+    <div class="chat">
+        <ul class="chat__messages">
+            <span class="chats__timestamp">Monday, July 13, 2020</span>
+            <li class="incoming-message">
+                <div class="sender__pic">
+                    <div class="sender__head"></div>
+                    <div class="sender__body"></div>
+                </div>
+                <div class="message__content">
+                    <span class="message__author">Friend1</span>
+                    <div class="message__bubble">
+                        <span class="bubble__content">
+                            Im going to be running late
+                        </span>
+                        <span class="bubble__timestamp">
+                            1:45PM
+                        </span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <ul class="chat__messages">
+            <li class="sending-message">
+                <div class="message__content">
+                    <div class="message__bubble">
+                        <span class="bubble__timestamp">
+                            1:45PM
+                        </span>
+                        <span class="bubble__content">
+                            Im going to be running late
+                        </span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script src="https://kit.fontawesome.com/03bf801d52.js" crossorigin="anonymous"></script>
 </body>
 </html>
