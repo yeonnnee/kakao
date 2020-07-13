@@ -1,0 +1,22 @@
+.chat-header,
+.chat-header__icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* header */
+.chat-header{
+    padding: 0 20px;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+}
+.chat__name{
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+.chat-header__icons{
+    width: 80px;
+}
