@@ -32,9 +32,14 @@
                     </a>
                 </li>
                 <li class="icons__list">
-                    <a href="./find.html">
-                        <i class="fas fa-user-plus"></i>
-                    </a>
+                    <div class="user-icon">
+                        <a href="./friends.html">
+                            <div class="user-icon__head">
+                                <span class="user__add">+</span>
+                            </div>
+                            <div class="user-icon__body"></div>
+                        </a>
+                    </div>
                 </li>
                 <li class="icons__list">
                     <a href="">
@@ -52,7 +57,8 @@
         <div class="user">
             <div class="user__info">
                 <div class="user__img">
-                    <img src="img/elsa.jpg">
+                    <div class="user__head"></div>
+                    <div class="user__body"></div>
                 </div>
                 <h4 class="user__name">yeonnnee</h4>
             </div>
@@ -74,7 +80,8 @@
                     <li class="list__item">
                         <div class="friend-content">
                             <div class="friend__pic">
-                                <img src="./img/rapunzel.jpg">
+                                <div class="user__head"></div>
+                                <div class="user__body"></div>
                             </div>
                             <div class="friend__info">
                                 <h4 class="friend__name">
@@ -94,7 +101,8 @@
                     <li class="list__item">
                         <div class="friend-content">
                             <div class="friend__pic">
-                                <img src="./img/ryan.jpg">
+                                <div class="user__head"></div>
+                                <div class="user__body"></div>
                             </div>
                             <div class="friend__info">
                                 <h4 class="friend__name">
@@ -121,7 +129,8 @@
                 <li class="list__item">
                     <div class="friend-content">
                         <div class="friend__pic">
-                            <img src="./img/alice.jpg">
+                            <div class="user__head"></div>
+                            <div class="user__body"></div>
                         </div>
                         <div class="friend__info">
                             <h4 class="friend__name">
@@ -136,7 +145,8 @@
                 <li class="list__item">
                     <div class="friend-content">
                         <div class="friend__pic">
-                            <img src="./img/bell.jpg">
+                            <div class="user__head"></div>
+                            <div class="user__body"></div>
                         </div>
                         <div class="friend__info">
                             <h4 class="friend__name">
@@ -152,7 +162,8 @@
                 <li class="list__item">
                     <div class="friend-content">
                         <div class="friend__pic">
-                            <img src="./img/rapunzel.jpg">
+                            <div class="user__head"></div>
+                            <div class="user__body"></div>
                         </div>
                         <div class="friend__info">
                             <h4 class="friend__name">
@@ -168,7 +179,8 @@
                 <li class="list__item">
                     <div class="friend-content">
                         <div class="friend__pic">
-                            <img src="./img/mulan.jpg">
+                            <div class="user__head"></div>
+                            <div class="user__body"></div>
                         </div>
                         <div class="friend__info">
                             <h4 class="friend__name">
@@ -188,10 +200,12 @@
     <nav class="nav">
         <ul class="nav__list">
             <li class="list__item">
-                <a href="./friends.html">
-                    <i class="fas fa-user"></i>
-                </svg>
-                </a>
+                <div class="user-icon">
+                    <a href="./friends.html">
+                        <div class="user-icon__head friends-p-icon"></div>
+                        <div class="user-icon__body friends-p-icon"></div>
+                    </a>
+                </div>
             </li>
             <li class="list__item">
                 <a href="./chats.html">
@@ -207,11 +221,13 @@
                 </a>
             </li>
             <li class="list__item">
-                <a href="./more.html">
-                    <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-                        <path d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path>
-                    </svg>
-                </a>
+                <div class="more-icon">
+                    <a href="./more.html">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </a>
+                </div>
             </li>
         </ul>
     </nav>    
