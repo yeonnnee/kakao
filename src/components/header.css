@@ -1,0 +1,144 @@
+
+.header,
+.chat-header,
+.chat-header__icons,
+.setting-header,
+.header__icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* header */
+.header{
+    width: 100%;
+    height: 40px;
+}
+
+.header__title {
+    font-size: 22px;
+    font-weight: bold;
+}
+.header__icons {
+    width: 140px;
+}
+
+.header-icons__list span{
+    position: relative;
+}
+.header-user__add{
+    font-weight: bold;
+    right: -8px;
+    top: -3px;
+}
+
+.add{
+    font-size: 8px;
+    top:-2px;
+}
+
+/* chat-header */
+
+.chat-header{
+    padding: 0 20px;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+}
+.chat-header__user-name{
+    margin-left: 60px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.chat-header__icons{
+    width: 80px;
+}
+
+
+/* find header */
+
+.find-header__cancel{
+    display: inline-block;
+    height: 40px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.find-header__container input{
+    border: none;
+    outline: none;
+    background-color:#f7f7f7;
+    border-radius: 10px;
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+}
+.find-header__container{
+    width: 100%;
+}
+.find-header__search-icon i {
+    position: relative;
+    top: 28px;
+    left: 10px;
+    font-size: 12px;
+}
+.find-header__qr-code i{
+    font-size: 20px;
+    position: relative;
+    float: right;
+    right: 15px;
+    top: -28px;
+
+}
+
+/* hash header */
+.hash-header{
+    border-bottom: 1px solid #f1f1f1;
+    width: 100%;
+    height: 40px;
+}
+
+.hash-header__title,
+.hash-header-title__list a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hash-header-title__list{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    opacity: 0.5;
+    margin: 0 15px;
+}
+
+.hash-header-title__list:nth-child(1){
+    border-bottom: 1px solid rgb(29, 29, 29);
+    opacity: 0.8;
+}
+
+.hash-header-title__list:hover{
+    border-bottom: 1px solid rgb(29, 29, 29);
+    opacity: 0.8;
+}
+.scrollbar{
+    width: 100%;
+    height: 60px;
+}
+.scrollbar-wrapper{
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+
+/* setting header */
+.setting-header {
+    font-size: 18px;
+    font-weight: bold;
+}
