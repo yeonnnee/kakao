@@ -158,18 +158,22 @@
 }
 /* ad */
 
-.ad{
+.ad {
     margin-top: 30px;
     border-radius: 20px;
     height: 250px;
-    background-image: linear-gradient(rgba(226, 225, 225, 0.5), rgb(226, 225, 225, 0.5)),url("../../img/mac2.jpg");
+    background-image: linear-gradient(
+        rgba(226, 225, 225, 0.5),
+        rgb(226, 225, 225, 0.5)
+      ),
+      url("../../img/mac2.jpg");
     background-size: 50% 250px;
     box-shadow: inset 0 -10px 20px rgb(112, 111, 111);
     margin-bottom: 70px;
     animation: fadeIn 1s linear forwards;
-}
-
-.ad-mark{
+  }
+  
+  .ad-mark {
     float: right;
     font-size: 10px;
     font-weight: bold;
@@ -183,17 +187,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.ad__content{
+  }
+  .ad-container {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding: 50px 20px;
-}
-
-.ad__btn{
+  }
+  
+  .ad__btn {
     width: 100px;
     height: 40px;
     outline: none;
@@ -204,14 +208,14 @@
     font-weight: bold;
     padding: 5px;
     cursor: pointer;
-    margin-top: 30px;
-}
-.ad__btn:hover{
+    margin-top: 10px;
+  }
+  .ad__btn:hover {
     background-color: white;
     color: rgb(112, 112, 112);
-}
-
-.ad__text{
+  }
+  
+  .ad__title {
     height: 30px;
     display: flex;
     flex-direction: column;
@@ -219,9 +223,10 @@
     font-size: 20px;
     font-weight: bold;
     color: rgb(59, 57, 57);
-}
-.ad__text span{
+  }
+  .ad__text {
     margin-top: 5px;
     color: #eb3b5a;
     animation: blinkingText 3s linear infinite;
-}
+  }
+  
