@@ -1,6 +1,7 @@
 .nav{
     position: fixed;
     bottom: 0;
+    right: 0;
     width: 100%;
     background-color: #f9f9fa;
     border-top: 1px solid #f1f1f1;
@@ -18,9 +19,9 @@
 }
 .nav__alert{
     background-color: tomato;
-    width: 17px;
-    height: 17px;
-    border-radius: 10px;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,7 +44,7 @@
 }
 
 .friends-p-icon,.more-dot{
-    background-color: black;
+    background-color: rgb(34, 34, 34);
 }
 
 .nav__more-icon a{
