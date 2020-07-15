@@ -7,7 +7,7 @@ HTML, CSS를 사용하여 카카오톡 UI 구현 프로젝트
 
 ## Getting started
 
-페이지 들어간 후 log in 버튼 클릭 :point_right:  https://yeonnnee.github.io/kakao/ 
+페이지 접속 후 log in 버튼 클릭 :point_right:  https://yeonnnee.github.io/kakao/ 
 
 
 
