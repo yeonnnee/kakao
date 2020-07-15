@@ -14,7 +14,7 @@
 }
 
 .notice__item,
-.lists__item{
+.setting-list__option{
     width: 100%;
     height: 50px;
     border-bottom: 1px solid rgb(248, 248, 248);
@@ -24,12 +24,12 @@
 }
 
 .notice__item:nth-child(3),
-.lists__item:nth-child(9){
+.setting-list__option:nth-child(9){
     border-bottom: none;
 }
 
 .notice__item i,
-.lists__item i{
+.setting-list__option i{
     margin-right: 5px;
 }
 
@@ -71,7 +71,7 @@
     margin: 0 7px 0 5px;
 }
 
-.lists__item svg{
+.setting-list__option svg{
     width: 18px;
     height: 18px;
     margin-right: 7px;
