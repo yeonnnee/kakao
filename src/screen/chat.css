@@ -126,51 +126,82 @@
 
 
 /* chat write */
-
-
-.chat__write,
-.write__bubble{
+.chat__write{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 0 20px;
     width: 100%;
 }
 .chat__write{
     position: fixed;
     bottom: 0;
     height: 50px;
+    padding: 10px 20px;
     background-color: white;
     padding-bottom: 10px;
+    transition: all 0.3s ease-in-out;
 }
 .write__icons svg{
     width: 18px;
     height: 18px;
 }
 
-.write__bubble{
-    height: 30px;
-    background-color: #f7f7f7;
-    border-radius: 20px;
-}
-
 .write__icons{
-    width: 50px;
+    position: absolute;
+    right: 60px;
+    top: 17px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    margin-right: 5px;
+}
+.write__icons i{
+   margin-right: 5px;
 }
 
+.write__bubble{
+    width: 100%;
+}
 .write__bubble input{
    width: 100%;
-   margin-right: 10px;
+   padding: 13px;
+   border-radius: 25px;
    background-color: #f7f7f7;
    outline: none;
    border: none;
+   transition: all 0.5s ease-in-out;
 }
 .write__icon-right{
     margin-right: 15px;
+    width: 10%;
 }
 .write__icon-left{
     margin-left: 10px;
+    width: 10%;
+}
+
+
+.chat__write .write__icon-right:nth-child(1),
+.chat__write .icon-mic-outline,
+.chat__write .write__icons i,
+.chat__write .write__icons svg{
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.chat__write:focus-within .write__icon-right:nth-child(1),
+.chat__write:focus-within .icon-mic-outline,
+.chat__write:focus-within .write__icons{
+    opacity: 0;
+}
+
+.chat__write:focus-within input{
+    width: 83vw;
+    transform: translateX(-7%) translateY(-80px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, 
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
+}
+
+.chat__write:focus-within{
+    transform: translateY(70px);
 }
