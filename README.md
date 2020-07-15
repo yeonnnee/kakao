@@ -1,6 +1,5 @@
 #:closed_book: kakao Clone
 
-------
 >nomad-coders "카카오톡 클론코딩" 수업 수강
 
 HTML, CSS를 사용하여 카카오톡 UI 구현 프로젝트
@@ -8,20 +7,20 @@ HTML, CSS를 사용하여 카카오톡 UI 구현 프로젝트
 ------
 ## Getting started
 
-Link :point_right:  https://yeonnnee.github.io/kakao/ 
+페이지 들어간 후 log in 버튼 클릭 :point_right:  https://yeonnnee.github.io/kakao/ 
 
-페이지 들어간 후 log in 버튼 클릭
+
 
 ----
 ## Screen
--:seedling: login 
--:seedling: Friends 
--:seedling: Chats 
--:seedling: Chat
--:seedling: Hash
--:seedling: More
--:seedling: Setting
--:seedling: Search
+:seedling: login 
+:seedling: Friends 
+:seedling: Chats 
+:seedling: Chat
+:seedling: Hash
+:seedling: More
+:seedling: Setting
+:seedling: Search
 
 -----
 
