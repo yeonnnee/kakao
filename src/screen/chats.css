@@ -1,9 +1,4 @@
-/* header */
 
-.add{
-    font-size: 8px;
-    top:-2px;
-}
 
 /* chats screen */
 .chats{
@@ -19,19 +14,23 @@
     margin: 20px 0;
 }
 
+
 .chat__time{
     font-size: 11px;
     opacity: 0.8;
     height: 40px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+}
+
+.chat__time span{
+    margin-bottom: 5px;
 }
 
 .chat__info h4{
     font-size: 15px;
     font-weight: bold;
-    margin-bottom: 5px;
+
 }
 
 .chat__preview{
