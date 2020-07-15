@@ -1,0 +1,102 @@
+
+/* user-container */
+.user-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-right: 7px;
+}
+
+.user__img,
+.user__img img{
+    width: 60px;
+    height: 60px;
+    border-radius: 23px;
+}
+
+.friend__pic{
+    width: 45px;
+    height: 45px;
+    border-radius: 17px;
+}
+
+.sender__pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.purple-bg{
+    background-color: rgb(186, 186, 248);
+}
+.blue-bg{
+    background-color: rgb(109, 182, 211);
+}
+.yellow-bg{
+    background-color: #f6b93b;
+}
+
+
+/* user icon */
+.user__head{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(210, 210, 247);
+    margin-bottom: 3px;
+}
+.user__body{
+    width: 20px;
+    height: 7px;
+    border-radius: 50px 50px 0 0;
+    background-color: rgb(210, 210, 247);
+}
+
+.blank{
+    background-image: url("../../img/groovepaper.png");
+}
+
+.blue{
+    background-color: rgb(150, 209, 233);
+}
+
+.yellow{
+    background-color: #fad390;
+}
+
+
+/* nav user */
+.user-icon__head{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(34, 34, 34);
+    margin-left: 5px;
+    margin-bottom: 3px;
+}
+.user-icon__body{
+    width: 20px;
+    height: 7px;
+    border-radius: 15px 15px 0 0;
+    border: 2px solid rgb(34, 34, 34);
+    border-bottom: transparent;
+}
+
+/* header user */
+.header-user__head{
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    border: 2px solid rgb(34, 34, 34);
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+.header-user__body{
+    width: 18px;
+    height: 7px;
+    border-radius: 15px 15px 0 0;
+    border: 2px solid rgb(34, 34, 34);
+    border-bottom: transparent;
+}
