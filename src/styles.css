@@ -1,12 +1,13 @@
 @import "./reset.css";
 @import "../fontello/css/user-embedded.css";
-
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
 
 /* component */
 @import "./components/status-bar.css";
 @import "./components/nav.css";
 @import "./components/loading.css";
+@import "./components/user-icon.css";
+@import "./components/header.css";
 
 /* screen */
 @import "./screen/login.css";
@@ -17,6 +18,7 @@
 @import "./screen/setting.css";
 @import "./screen/find.css";
 @import "./screen/chat.css";
+@import "./screen/mobile.css";
 
 *{
     box-sizing: border-box;
@@ -34,4 +36,21 @@ a{
 
 body{
     font-family: "fontello";
+    font-family: 'Nunito', sans-serif;
+}
+
+
+@keyframes showUp{
+    from{
+        transform: translateY(80px);
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
+
+main{
+    animation: showUp 0.5s linear forwards;
 }
