@@ -21,22 +21,31 @@
         opacity: 0;
     }
 }
+
 .loading__circle {
     position: absolute;
     height: 50px;
     width: 50px;
     border: 2px solid transparent;
-    border-color: transparent #fff transparent #FFF;
+    border-color: transparent white transparent white;
     border-radius: 50px;
     animation: rotateCircle 2s linear infinite;
 }
 
 .loading__text {
-    color: rgb(182, 179, 179);
+    color: rgb(170, 168, 168);
     font-size: 15px;
     position: relative;
     animation: loadingText 2s linear infinite alternate;
 }
 
 
-
+.news-loading__circle {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-color: transparent #f0efef transparent #f0efef;
+    border-radius: 50px;
+    animation: rotateCircle 2s linear infinite;
+}
