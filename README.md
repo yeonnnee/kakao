@@ -1,4 +1,4 @@
-#:closed_book: kakao Clone
+# :closed_book: kakao Clone
 
 >nomad-coders "카카오톡 클론코딩" 수업 수강
 
