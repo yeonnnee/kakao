@@ -4,27 +4,27 @@
 
 HTML, CSS를 사용하여 카카오톡 UI 구현 프로젝트
 
-------
+
 ## Getting started
 
 페이지 들어간 후 log in 버튼 클릭 :point_right:  https://yeonnnee.github.io/kakao/ 
 
 
 
-----
+
 ## Screen
-:seedling: login 
-:seedling: Friends 
-:seedling: Chats 
-:seedling: Chat
-:seedling: Hash
-:seedling: More
-:seedling: Setting
-:seedling: Search
+:seedling: login <br>
+:seedling: Friends <br>
+:seedling: Chats <br>
+:seedling: Chat <br>
+:seedling: Hash <br>
+:seedling: More <br>
+:seedling: Setting <br>
+:seedling: Search <br>
 
------
 
-##Login 
+
+## Login 
 
 <img src="https://user-images.githubusercontent.com/61894688/87580788-f9a68500-c712-11ea-90bf-9a92225084c0.png" width="300px" height="500px" alt="Log in"></img>
 
