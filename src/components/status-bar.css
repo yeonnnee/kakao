@@ -6,15 +6,22 @@
     justify-content: space-between;
     padding: 10px 20px 25px 20px;
 }
-
+.status-bar__icons {
+    position: relative;
+    right: -10px;
+}
 .status-bar__time{
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
 }
-.status-bar__icons {
-    font-size: 13px;
+.status-bar__icons i{
+    font-size: 12px;
 }
 
 .status-bar__icons i:nth-child(2){
     margin: 0 3px;
+}
+
+.status-bar__icons i:nth-child(3){
+    font-size: 14px;
 }
