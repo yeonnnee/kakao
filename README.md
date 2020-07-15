@@ -2,7 +2,7 @@
 
 >nomad-coders "카카오톡 클론코딩" 수업 수강
 
-HTML, CSS를 사용하여 카카오톡 UI 구현 프로젝트
+>HTML, CSS를 사용하여 카카오톡 UI 구현 프로젝트
 
 
 ## Getting started
