@@ -1,4 +1,17 @@
+.login-body{
+    background-color: #fae100;
+    padding: 0 20px;
+}
 
+.btn-container,
+form,
+.greet-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: #391B1B;
+}
 
 /* greeting */
 .greet-header{
@@ -12,33 +25,52 @@
 }
 
 .greet__notice{
-    font-size: 12px;
-    width: 60%;
+    font-size: 13px;
+    width: 100%;
     opacity: 0.7;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     text-align: center;
+    line-height: 20px;
+}
+
+@keyframes blinkingText {
+    0%, 100%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+
+.greet-header span{
+    font-size: 13px;
+    color: rgb(148, 30, 30);
+    animation: blinkingText 5s linear infinite;
+    margin-bottom: 20px;
 }
 
 /* form */
 .login-form {
     justify-content: space-between;
-    height: 110px;
+    height: 100px;
 }
 .login-form input{
     height: 50px;
     width: 100%;
+    margin-bottom: 5px;
     border: transparent;
-    border-bottom: 1px solid rgb(70, 69, 69);
+    border:none;
     outline: none;
+    padding: 0 20px;
     transition: border-color .3s ease-in-out;
+    cursor: not-allowed;
 }
 form input:focus{
     border-color: #fae100;
 }
 .text{
-    padding: 0 20px;
     margin-top: 10px;
-    color: red;
+    color: rgb(194, 14, 14);
     float: right;
     font-size: 12px;
     cursor: pointer;
@@ -46,7 +78,6 @@ form input:focus{
 .checkbox__container{
     margin: 35px 0;
     font-size: 13px;
-    padding: 0 20px;
 }
 .checkbox{
     display: none;
@@ -68,7 +99,8 @@ form input:focus{
 
 /* button */
 .btn-container{
-    height: 150px;
+    margin-top: 20px;
+    height: 80px;
     justify-content: space-around;
 }
 .btn-container button{
@@ -80,17 +112,9 @@ form input:focus{
     cursor: pointer;
     font-size: 15px;
 }
+.btn-container button:hover{
+    background-color: #e4e3e3;
+}
 .btn-container span{
     font-size: 12px;
-}
-
-/* same style */
-.btn-container,
-form,
-.greet-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    width: 100%;
 }
