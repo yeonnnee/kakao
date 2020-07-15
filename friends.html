@@ -28,7 +28,7 @@
             <ul class="header__icons">
                 <li class="header-icons__list">
                     <a href="./find.html">
-                        <i class=" icon-search"></i>
+                        <i class="icon-search"></i>
                     </a>
                 </li>
                 <li class="header-icons__list">
@@ -47,34 +47,92 @@
                     </a>
                 </li>
                 <li class="header-icons__list setting-icon">
-                    <span >
-                        <i class="fas fa-cog"></i>
-                    </span>
+                    <a href="./setting.html">
+                        <span >
+                            <i class="fas fa-cog"></i>
+                        </span>
+                    </a>
                 </li>
             </ul>
         </header>
-        <!----------------내 프로필----------------->
-        <div class="user">
-            <div class="user__info">
-                <div class="user__img">
-                    <img src="./img/me.png">
+        <!----------------My Profile----------------->
+        <main>
+            <div class="user">
+                <div class="user__content">
+                    <div class="user__img">
+                        <img src="./img/me.png">
+                    </div>
                 </div>
-                <h4 class="user__name">yeonnnee</h4>
+                <div class="user__info">
+                    <h4 class="user__name">
+                        yeonnnee
+                    </h4>
+                    <span class="user__status">
+                        Give, Share, Lose lest we die unbloomed
+                    </span>
+                </div>
             </div>
-        </div>
-        <!-------------생일인 친구--------------------->
-        <div class="birthday">
-            <div class="birthday__header">
-                <h6 class="birthday__title">
-                    Friends with Birthdays
-                </h6>
-                <span class="birthday__hide">
-                    <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-                        <path d="M5 15l7-7 7 7"></path>
-                    </svg>
-                </span>
+            <!------------- Friends with b-day --------------------->
+            <div class="birthday">
+                <div class="birthday__header">
+                    <h6 class="birthday__title">
+                        Friends with Birthdays
+                    </h6>
+                    <span class="birthday__hide">
+                        <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M5 15l7-7 7 7"></path>
+                        </svg>
+                    </span>
+                </div>
+                <div class="birthday__friends">
+                    <ul class="friends__list">
+                        <li class="list__item">
+                            <div class="friend-content">
+                                <div class="friend__pic">
+                                    <div class="user__head"></div>
+                                    <div class="user__body"></div>
+                                </div>
+                                <div class="friend__info">
+                                    <h4 class="friend__name">
+                                        Friend1
+                                        <i class="icon-birthday"></i>
+                                    </h4>
+                                    <span class="friend__status">
+                                        My B-day!!
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="gift-shop">
+                                Gift Shop
+                                <i class="icon-gift-2"></i>
+                            </div>
+                        </li>
+                        <li class="list__item">
+                            <div class="friend-content">
+                                <div class="b-friend__pic">
+                                    <i class="icon-birthday"></i>
+                                </div>
+                                <div class="friend__info">
+                                    <h4 class="friend__name">
+                                        View more birthdays
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="birthday__more">
+                                2
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="birthday__friends">
+            <!---------------------------- Friends ----------------->
+            <div class="friends">
+                <div class="friends__header">
+                    <h6 class="friends__title">
+                        Friends 5
+                    </h6>
+                </div>
                 <ul class="friends__list">
                     <li class="list__item">
                         <div class="friend-content">
@@ -85,128 +143,98 @@
                             <div class="friend__info">
                                 <h4 class="friend__name">
                                     Friend1
-                                    <i class="icon-birthday"></i>
                                 </h4>
-                                <span class="friend__Status">
+                                <span class="friend__status">
                                     My B-day!!
                                 </span>
                             </div>
                         </div>
-                        <div class="gift-shop">
-                            Gift Shop
-                            <i class="icon-gift-2"></i>
+                    </li>
+                    <li class="list__item">
+                        <div class="friend-content">
+                            <div class="friend__pic blue-bg">
+                                <div class="user__head blue"></div>
+                                <div class="user__body blue"></div>
+                            </div>
+                            <div class="friend__info">
+                                <h4 class="friend__name">
+                                    Friend2
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="friend-music">
+                            <div class="music__info music-on">
+                                Summer Hate(Feat. 비)
+                            </div>
+                            <span class="music__icon">
+                                <i class="icon-play-outline big"></i>
+                            </span>
                         </div>
                     </li>
                     <li class="list__item">
                         <div class="friend-content">
-                            <div class="b-friend__pic">
-                                <i class="icon-birthday"></i>
+                            <div class="friend__pic">
+                                <div class="user__head"></div>
+                                <div class="user__body"></div>
                             </div>
                             <div class="friend__info">
                                 <h4 class="friend__name">
-                                    View more birthdays
+                                    Friend3
+                                </h4>
+                                <span class="friend__status">
+                                    4.13 London
+                                </span>
+                            </div>
+                        </div>
+                        <div class="friend-music">
+                            <div class="music__info">
+                                에잇(Prod.&Feat.SUG..)
+                            </div>
+                            <span class="music__icon">
+                                <i class="icon-play-outline big"></i>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <div class="friend-content">
+                            <div class="friend__pic yellow-bg">
+                                <div class="user__head yellow"></div>
+                                <div class="user__body yellow"></div>
+                            </div>
+                            <div class="friend__info">
+                                <h4 class="friend__name">
+                                    Friend4
+                                </h4>
+                                <span class="friend__status">
+                                    D-29
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list__item">
+                        <div class="friend-content">
+                            <div class="friend__pic blue-bg">
+                                <div class="user__head blue"></div>
+                                <div class="user__body blue"></div>
+                            </div>
+                            <div class="friend__info">
+                                <h4 class="friend__name">
+                                    Friend5
                                 </h4>
                             </div>
                         </div>
-                        <div class="birthday__more">
-                            2
-                            <i class="fas fa-chevron-right"></i>
+                        <div class="friend-music">
+                            <span class="music__info">
+                                Stranger Things(Feat. One..)
+                            </span>
+                            <span class="music__icon">
+                                <i class="icon-play-outline big"></i>
+                            </span>
                         </div>
                     </li>
                 </ul>
             </div>
-        </div>
-        <!---------------------------- 친구목록 ----------------->
-        <div class="friends">
-            <div class="friends__header">
-                <h6 class="friends__title">
-                    Friends 5
-                </h6>
-            </div>
-            <ul class="friends__list">
-                <li class="list__item">
-                    <div class="friend-content">
-                        <div class="friend__pic">
-                            <div class="user__head"></div>
-                            <div class="user__body"></div>
-                        </div>
-                        <div class="friend__info">
-                            <h4 class="friend__name">
-                                Friend1
-                            </h4>
-                            <span class="friend__Status">
-                                My B-day!!
-                            </span>
-                        </div>
-                    </div>
-                </li>
-                <li class="list__item">
-                    <div class="friend-content">
-                        <div class="friend__pic">
-                            <div class="user__head"></div>
-                            <div class="user__body"></div>
-                        </div>
-                        <div class="friend__info">
-                            <h4 class="friend__name">
-                                Friend2
-                            </h4>
-                        </div>
-                    </div>
-                    <div class="friend-music">
-                        <span>Summner Hate(Feat. 비)</span>
-                        <i class="icon-play-outline big"></i>
-                    </div>
-                </li>
-                <li class="list__item">
-                    <div class="friend-content">
-                        <div class="friend__pic">
-                            <div class="user__head"></div>
-                            <div class="user__body"></div>
-                        </div>
-                        <div class="friend__info">
-                            <h4 class="friend__name">
-                                Friend3
-                            </h4>
-                        </div>
-                    </div>
-                    <div class="friend-music">
-                        <span>에잇(Prod.&Feat.SUG...)</span>
-                        <i class="icon-play-outline big"></i>
-                    </div>
-                </li>
-                <li class="list__item">
-                    <div class="friend-content">
-                        <div class="friend__pic">
-                            <div class="user__head"></div>
-                            <div class="user__body"></div>
-                        </div>
-                        <div class="friend__info">
-                            <h4 class="friend__name">
-                                Friend4
-                            </h4>
-                        </div>
-                    </div>
-                </li>
-                <li class="list__item">
-                    <div class="friend-content">
-                        <div class="friend__pic">
-                            <div class="user__head"></div>
-                            <div class="user__body"></div>
-                        </div>
-                        <div class="friend__info">
-                            <h4 class="friend__name">
-                                Friend5
-                            </h4>
-                        </div>
-                    </div>
-                    <div class="friend-music">
-                        <span>Stranger Things(Feat. One..)</span>
-                        <i class="icon-play-outline big"></i>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
+        </main>
     <!-------------------- nav ---------------------------->
     <nav class="nav">
         <ul class="nav__list">
@@ -241,7 +269,12 @@
                 </div>
             </li>
         </ul>
-    </nav>    
+    </nav>
+    <div class="bigScreen">
+        <span class="bigScreen__text">
+            Please make screen small
+        </span>
+    </div>
     <script src="https://kit.fontawesome.com/03bf801d52.js" crossorigin="anonymous"></script>
 </body>
 </html>
