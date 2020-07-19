@@ -158,6 +158,10 @@
 }
 /* ad */
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 .ad {
     margin-top: 30px;
     border-radius: 20px;
@@ -231,4 +235,3 @@
     color: #f80a36;
     animation: blinkingText 3s linear infinite;
   }
-  
