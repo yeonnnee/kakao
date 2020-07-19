@@ -13,26 +13,22 @@ visit website & press "log in" button :point_right:  https://yeonnnee.github.io/
 
 
 ## Screen
-:seedling: login <br>
-:seedling: Friends <br>
-:seedling: Search <br>
-:seedling: Chats <br>
-:seedling: Chat <br>
-:seedling: Hash <br>
-:seedling: More <br>
-:seedling: Setting <br>
 
-
-
-## Preview 
-
-<img src="https://user-images.githubusercontent.com/61894688/87870571-42e12800-c9e4-11ea-968a-1427ddf9b20a.png" width="300px" height="500px" alt="Log in"></img>
+:pencil2:log in
+<img src="https://user-images.githubusercontent.com/61894688/87870623-d155a980-c9e4-11ea-8dc7-55712971397a.png" width="300px" height="500px" alt="Log in"></img>
+:pencil2:Friends
 <img src="https://user-images.githubusercontent.com/61894688/87870419-dca7d580-c9e2-11ea-8f65-07c6cc666784.png" width="300px" height="500px" alt="Friends List"></img>
+:pencil2:Find
 <img src="https://user-images.githubusercontent.com/61894688/87870433-f21cff80-c9e2-11ea-8c87-43d397da9674.png" width="300px" height="500px" alt="find"></img>
+:pencil2:Chats
 <img src="https://user-images.githubusercontent.com/61894688/87870451-1d9fea00-c9e3-11ea-9563-ed348f51c3a7.png" width="300px" height="500px" alt="chats list"></img>
+:pencil2:chat
 <img src="https://user-images.githubusercontent.com/61894688/87870439-052fcf80-c9e3-11ea-9331-f5e7a20a5bc8.png" width="300px" height="500px" alt="chat room"></img>
+:pencil2:Hash
 <img src="https://user-images.githubusercontent.com/61894688/87870458-38725e80-c9e3-11ea-8fe2-383fba1971f0.png" width="300px" height="500px" alt="hash page"></img>
+:pencil2:More
 <img src="https://user-images.githubusercontent.com/61894688/87870406-c00b9d80-c9e2-11ea-9075-0f29ae12de0c.png" width="300px" height="500px" alt="more page"></img>
+:pencil2:Setting
 <img src="https://user-images.githubusercontent.com/61894688/87869696-a23b3a00-c9dc-11ea-8ccc-0840c2c2888f.png" width="300px" height="500px" alt="setting"></img>
 
 
