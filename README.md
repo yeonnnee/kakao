@@ -28,7 +28,7 @@ visit website & press "log in" button :point_right:  https://yeonnnee.github.io/
 <img src="https://user-images.githubusercontent.com/61894688/87870419-dca7d580-c9e2-11ea-8f65-07c6cc666784.png" width="200px" height="300px" alt="Friends List"></img>
 <img src="https://user-images.githubusercontent.com/61894688/87870433-f21cff80-c9e2-11ea-8c87-43d397da9674.png" width="200px" height="300px" alt="find"></img>
 <img src="https://user-images.githubusercontent.com/61894688/87870451-1d9fea00-c9e3-11ea-9563-ed348f51c3a7.png" width="200px" height="300px" alt="chats list"></img>
-<img src="https://user-images.githubusercontent.com/61894688/87870439-052fcf80-c9e3-11ea-9331-f5e7a20a5bc8.png" width="200px" height="300px" alt="chat room"></img>
+<img src="https://user-images.githubusercontent.com/61894688/87871531-de29cb80-c9eb-11ea-99cf-0e7752b0d30d.png" width="200px" height="300px" alt="chat room"></img>
 <img src="https://user-images.githubusercontent.com/61894688/87870458-38725e80-c9e3-11ea-8fe2-383fba1971f0.png" width="200px" height="300px" alt="hash page"></img>
 <img src="https://user-images.githubusercontent.com/61894688/87870406-c00b9d80-c9e2-11ea-9075-0f29ae12de0c.png" width="200px" height="300px" alt="more page"></img>
 <img src="https://user-images.githubusercontent.com/61894688/87869696-a23b3a00-c9dc-11ea-8ccc-0840c2c2888f.png" width="200px" height="300px" alt="setting"></img>
