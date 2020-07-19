@@ -24,17 +24,24 @@ visit website & press "log in" button :point_right:  https://yeonnnee.github.io/
 
 
 
-## Login 
+## Preview 
 
 <img src="https://user-images.githubusercontent.com/61894688/87580788-f9a68500-c712-11ea-90bf-9a92225084c0.png" width="300px" height="500px" alt="Log in"></img>
-<img src="https://user-images.githubusercontent.com/61894688/87867782-8bd8b280-c9cb-11ea-800d-496f75403f77.png" width="300px" height="500px" alt="Friends List"></img>
-<img src="https://user-images.githubusercontent.com/61894688/87869917-a8321a80-c9de-11ea-84ca-5faf9ebac1f9.png" width="300px" height="500px" alt="find"></img>
-<img src="https://user-images.githubusercontent.com/61894688/87868792-c85cdc00-c9d4-11ea-96ec-880680bd3908.png" width="300px" height="500px" alt="chats list"></img>
-<img src="https://user-images.githubusercontent.com/61894688/87868750-440a5900-c9d4-11ea-865d-674d48856a7b.png" width="300px" height="500px" alt="chat room"></img>
-<img src="https://user-images.githubusercontent.com/61894688/87869064-7073a480-c9d7-11ea-8275-06c91d666d9b.png" width="300px" height="500px" alt="hash page"></img>
-<img src="https://user-images.githubusercontent.com/61894688/87869456-f5ac8880-c9da-11ea-9810-73cc96bac127.png" width="300px" height="500px" alt="more page"></img>
+<img src="https://user-images.githubusercontent.com/61894688/87870419-dca7d580-c9e2-11ea-8f65-07c6cc666784.png" width="300px" height="500px" alt="Friends List"></img>
+<img src="https://user-images.githubusercontent.com/61894688/87870433-f21cff80-c9e2-11ea-8c87-43d397da9674.png" width="300px" height="500px" alt="find"></img>
+<img src="https://user-images.githubusercontent.com/61894688/87870451-1d9fea00-c9e3-11ea-9563-ed348f51c3a7.png" width="300px" height="500px" alt="chats list"></img>
+<img src="https://user-images.githubusercontent.com/61894688/87870439-052fcf80-c9e3-11ea-9331-f5e7a20a5bc8.png" width="300px" height="500px" alt="chat room"></img>
+<img src="https://user-images.githubusercontent.com/61894688/87870458-38725e80-c9e3-11ea-8fe2-383fba1971f0.png" width="300px" height="500px" alt="hash page"></img>
+<img src="https://user-images.githubusercontent.com/61894688/87870406-c00b9d80-c9e2-11ea-9075-0f29ae12de0c.png" width="300px" height="500px" alt="more page"></img>
 <img src="https://user-images.githubusercontent.com/61894688/87869696-a23b3a00-c9dc-11ea-8ccc-0840c2c2888f.png" width="300px" height="500px" alt="setting"></img>
+
+
+## Log-in
 - log in  버튼을 누르면 페이지 이동하도록 하였습니다.
 - 로그인 화면을 최대한 구현하고자 input 의 `palceholder`에 가상의 이메일과 비밀번호를 적었으며, remember me check box에 `checked`로 설정하여 자동로그인 화면을 구현해 보았습니다.
+
+## friends List
+- 애니메이션을 통해 뮤직플레이어 플레이 효과 추가
+- 친구프로필 사진은 카카오톡 기본 아이콘과 유사하게 꾸밈
 
 
