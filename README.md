@@ -24,7 +24,7 @@ visit website & press "log in" button :point_right:  https://yeonnnee.github.io/
 :pencil2:Setting<br>
 
 ## Preview
-<img src="https://user-images.githubusercontent.com/61894688/87871243-b5083b80-c9e9-11ea-9742-5671e38127f9.png" width="220px" height="300px" alt="Log in"></img>
+<img src="https://user-images.githubusercontent.com/61894688/87937838-6f726e00-cad0-11ea-841f-bfff3c1bcb56.png" width="200px" height="300px" alt="Log in"></img>
 <img src="https://user-images.githubusercontent.com/61894688/87870419-dca7d580-c9e2-11ea-8f65-07c6cc666784.png" width="200px" height="300px" alt="Friends List"></img>
 <img src="https://user-images.githubusercontent.com/61894688/87870433-f21cff80-c9e2-11ea-8c87-43d397da9674.png" width="200px" height="300px" alt="find"></img>
 <img src="https://user-images.githubusercontent.com/61894688/87870451-1d9fea00-c9e3-11ea-9563-ed348f51c3a7.png" width="200px" height="300px" alt="chats list"></img>
